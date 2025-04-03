@@ -1,0 +1,22 @@
+# Ignore all .mat files (data files)
+*.mat  
+
+# Ignore backup and autosave files
+*~  
+*.asv  
+
+# Ignore slprj and related build folders (Simulink)
+slprj/  
+_slprj/  
+*_ert_rtw/  
+
+# Ignore user-specific MATLAB preferences
+matlabprefs.mat  
+
+# Ignore figures and Simulink models backups
+*.fig  
+*.mdl.autosave  
+
+# Ignore workspace history
+matlab.workspace  
+matlab.desktop  
